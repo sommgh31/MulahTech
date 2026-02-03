@@ -1,3 +1,5 @@
+<html>
+
 Container(
     width: 1920,
     height: 2999,
@@ -277,3 +279,78 @@ Container(
         ],
     ),
 )
+
+<!-- ===== TABLE 1 ===== -->
+<section>
+  <h2>Table 1</h2>
+  <table id="table1">
+    <tr>
+      <th>Index #</th>
+      <th>Value</th>
+    </tr>
+    <tr><td>A1</td><td>41</td></tr>
+    <tr><td>A2</td><td>18</td></tr>
+    <tr><td>A3</td><td>21</td></tr>
+    <tr><td>A4</td><td>63</td></tr>
+    <tr><td>A5</td><td>2</td></tr>
+    <tr><td>A6</td><td>53</td></tr>
+    <tr><td>A7</td><td>5</td></tr>
+    <tr><td>A8</td><td>57</td></tr>
+    <tr><td>A9</td><td>60</td></tr>
+    <tr><td>A10</td><td>93</td></tr>
+    <tr><td>A11</td><td>28</td></tr>
+    <tr><td>A12</td><td>3</td></tr>
+    <tr><td>A13</td><td>90</td></tr>
+    <tr><td>A14</td><td>39</td></tr>
+    <tr><td>A15</td><td>80</td></tr>
+    <tr><td>A16</td><td>88</td></tr>
+    <tr><td>A17</td><td>49</td></tr>
+    <tr><td>A18</td><td>60</td></tr>
+    <tr><td>A19</td><td>26</td></tr>
+    <tr><td>A20</td><td>28</td></tr>
+  </table>
+</section>
+
+<!-- ===== TABLE 2 ===== -->
+<section>
+  <h2>Table 2</h2>
+  <table id="table2">
+    <tr>
+      <th>Category</th>
+      <th>Value</th>
+    </tr>
+    <tr>
+      <td>Alpha</td>
+      <td id="alphaValue"></td>
+    </tr>
+    <tr>
+      <td>Beta</td>
+      <td id="betaValue"></td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td id="charlieValue"></td>
+    </tr>
+  </table>
+</section>
+
+// Store Table 1 values
+const data = {
+  A1: 41, A2: 18, A3: 21, A4: 63, A5: 2,
+  A6: 53, A7: 5, A8: 57, A9: 60, A10: 93,
+  A11: 28, A12: 3, A13: 90, A14: 39, A15: 80,
+  A16: 88, A17: 49, A18: 60, A19: 26, A20: 28
+};
+
+// Calculations
+const alpha = data.A5 + data.A20;      // A5 + A20
+const beta = data.A15 / data.A7;       // A15 / A7
+const charlie = data.A13 * data.A12;   // A13 * A12
+
+// Display results
+document.getElementById("alphaValue").textContent = alpha;
+document.getElementById("betaValue").textContent = beta;
+document.getElementById("charlieValue").textContent = charlie;
+
+
+</html>
