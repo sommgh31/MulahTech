@@ -1,0 +1,100 @@
+Text(
+    'Home',
+    style: TextStyle(
+        color: const Color(0xFF5B5B5B),
+        fontSize: 22,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w400,
+        letterSpacing: 0.44,
+    ),
+)
+// ---
+Text(
+    'About Me',
+    style: TextStyle(
+        color: const Color(0xFF5B5B5B),
+        fontSize: 22,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w400,
+        letterSpacing: 0.44,
+    ),
+)
+// ---
+Text(
+    'Copyright © 2026',
+    textAlign: TextAlign.center,
+    style: TextStyle(
+        color: const Color(0xFFB2B3CF),
+        fontSize: 22,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w400,
+        letterSpacing: 0.88,
+    ),
+)
+// ---
+Text(
+    'Subscribe to get our Newsletter',
+    textAlign: TextAlign.center,
+    style: TextStyle(
+        color: Colors.white,
+        fontSize: 26,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w500,
+        letterSpacing: 1.04,
+    ),
+)
+// ---
+Text(
+    'Terms & Conditions',
+    textAlign: TextAlign.center,
+    style: TextStyle(
+        color: const Color(0xFFB2B3CF),
+        fontSize: 22,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w400,
+        letterSpacing: 0.88,
+    ),
+)
+// ---
+Text(
+    'Contact Me',
+    style: TextStyle(
+        color: Colors.white,
+        fontSize: 24,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w700,
+    ),
+)
+// ---
+Text(
+    'Undergraduate Student from UMPSA',
+    style: TextStyle(
+        color: const Color(0xB22D3436),
+        fontSize: 18,
+        fontFamily: 'Inter',
+        fontWeight: FontWeight.w400,
+        height: 1.78,
+    ),
+)
+// ---
+Text(
+    'Motivated undergraduate student seeking an internship opportunity from 9th March 2026 to 21st August 2026 to apply academic  knowledge in real-world projects, develop practical technical and problem-solving skills, and gain hands-on experience in a  professional IT environment.',
+    style: TextStyle(
+        color: const Color(0xFF2D3436),
+        fontSize: 25,
+        fontFamily: 'Inter',
+        fontWeight: FontWeight.w400,
+        height: 1.28,
+    ),
+)
+// ---
+Text(
+    'Umie Kalsum Ghazali',
+    style: TextStyle(
+        color: Colors.black,
+        fontSize: 30,
+        fontFamily: 'Poppins',
+        fontWeight: FontWeight.w500,
+        letterSpacing: 0.60,
+    ),
+)
